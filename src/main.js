@@ -15,6 +15,7 @@ Vue.component('icon', Icon)
 Vue.use(VueImg);
 Vue.use(BootstrapVue);
 Vue.config.productionTip = process.env.NODE_ENV === 'production'
+ 
 
 new Vue({
   router,
