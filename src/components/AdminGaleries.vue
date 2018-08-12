@@ -33,11 +33,14 @@ export default {
     },
     methods: {
         GetGaleries(){
-            axios.get('http://api.laurarosales.es/api/galeries')
-                .then(response => (
-                    this.Galeries = response.data,
-                    this.isActive = false
-                ))
+            this.$http.get('/galeries')
+            .then(response => (
+                this.Galeries = response.data,
+                this.isActive = false
+            )).catch(error => (
+                this.isActive = false,
+                console.log(error)
+            ))
         }
     },
     created: function () {

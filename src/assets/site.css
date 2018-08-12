@@ -1,0 +1,57 @@
+.parallax-head {
+    /* The image used */
+    background-image: url("http://img.laurarosales.es/head.jpg");
+
+    /* Set a specific height */
+    min-height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-head-div {
+    min-height: 500px; 
+}
+
+.parallax-mid {
+    /* The image used */
+    background-image: url("http://img.laurarosales.es/mid.jpg");
+ 
+    /* Set a specific height */
+    min-height: 1080px; 
+ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .parallax-mid-div {
+    min-height: 500px; 
+}
+
+ .parallax-foot {
+    /* The image used */
+    background-image: url("http://img.laurarosales.es/foot.jpg");
+
+    /* Set a specific height */
+    min-height: 1080px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-foot-div {
+    min-height: 1080px; 
+}
+
+body{
+    background-color: deepskyblue;
+}

@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Laura Rosales" />
+    <meta name="description" content="Desc de prueba">
+    <meta name="Keywords" content="Keywords">
+
+    <!-- CSS Files
+      ================================================== -->
+    <link href="https://cdn.laurarosales.es/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/animate.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/owl.carousel.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/style.css" rel="stylesheet">
+    <link href="https://cdn.laurarosales.es/css/responsive.css" rel="stylesheet">
+
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+      
     <title>Laura Rosales</title>
   </head>
   <body>
@@ -12,6 +27,36 @@
       <strong>We're sorry but ladaweb doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+
+    <script src="https://cdn.laurarosales.es/js/jquery.min.js"></script>
+    <script src="https://cdn.laurarosales.es/js/bootstrap.min.js"></script>
+    <script src="https://cdn.laurarosales.es/js/typed.js"></script>
+    <script src="https://cdn.laurarosales.es/js/jquery.easy-pie-chart.js"></script>
+    <script src="https://cdn.laurarosales.es/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.laurarosales.es/js/wow.js"></script>
+    <script src="https://cdn.laurarosales.es/js/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="https://cdn.laurarosales.es/js/gmap3.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123800549-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-123800549-1');
+
+      if (location.protocol != 'https:')
+      {
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+
+
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+    <script src="https://cdn.laurarosales.es/js/script.js"></script>  
   </body>
 </html>

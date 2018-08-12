@@ -1,10 +1,22 @@
 
 <template>
-  <div id="app">
-    <div>
-      <Header/>
+  <div>
+    <div class="responsive-menu">
+			<router-link to="/"> <b>LAURA</b></router-link> 
+			  <a id="menu-icon" class="but" href="#">
+				<span class="ti-menu">
+				<img src="https://cdn.laurarosales.es/images/menu.png" alt="image">
+			</span> 
+			</a>
+		</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="main scroll-page">
+                <Header/>
+                <router-view/>
+            </div>
+        </div>
     </div>
-    <router-view/>
     <div>
       <Footer/>
     </div>
@@ -23,21 +35,3 @@ export default {
   }
 }
 </script>
-
-
-<style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
-</style>

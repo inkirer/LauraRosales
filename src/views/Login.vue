@@ -4,7 +4,7 @@
         <form class="form-signin" @submit.prevent="login">
             <h2 class="form-signin-heading">Please sign in</h2>
             <div class="alert alert-danger" v-if="error">{{ error }}</div>
-            <b-form-input class="mt-2" type="email" placeholder="Email" v-model="User.Email"></b-form-input>
+            <b-form-input class="mt-2" type="text" placeholder="Email" v-model="User.Nick"></b-form-input>
             <b-form-input class="mt-2" type="password" placeholder="Password" v-model="User.Password"></b-form-input>
             <b-btn class="mt-2" variant="primary" type="submit">Login</b-btn>
         </form>
